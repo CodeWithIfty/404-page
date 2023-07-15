@@ -4,4 +4,62 @@
 }
 body{
     font-family: 'Space Mono', monospace;
+    max-width: 1440px;
+    height: 100vh;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.10);
+    margin: 0 auto;
+}
+.heading-text{
+    margin: 0px 50px;
+}
+
+.container{
+    height: 90vh;
+    /* border: 2px solid tomato; */
+    display: flex;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 100px; */
+    
+}
+.text-container{
+    width: 50%;
+}
+.text-container h1{
+    width: fit-content;
+    color:  #333;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+    margin-bottom: 10px;
+}
+.btn{
+    background:  #333;
+    margin-top: 20px;
+    padding: 20px 22px ;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+}
+.img-container  img{
+    width: 600px ;
+    
+}
+
+.footer-text{
+    text-align: center;
+    margin-top: 10px;
+}
+.footer-text span {
+    color: #BDBDBD;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
