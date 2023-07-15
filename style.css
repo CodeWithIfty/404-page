@@ -8,8 +8,8 @@ body{
     height: 100vh;
     border-radius: 8px;
     background: #FFF;
-    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.10);
-    margin: 0 auto;
+    /* box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.10); */
+    margin: 20px auto;
 }
 .heading-text{
     margin: 0px 50px;
@@ -55,11 +55,41 @@ body{
 
 .footer-text{
     text-align: center;
-    margin-top: 10px;
 }
 .footer-text span {
     color: #BDBDBD;
     font-size: 14px;
     font-weight: 700;
     text-decoration-line: underline;
+}
+
+/* Responsive Styling */
+
+/* Mobile Devices */
+@media screen and (max-width: 576px) {
+    .container{
+        /* height: 85vh; */
+    }
+    .banner-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .text-container{
+        width: 80%;
+        text-align: center;
+    }
+    .text-container h1{
+font-size: 35px;
+    }
+    .img-container{
+        /* margin-bottom: -200px; */
+    }
+    .img-container img{
+        width: 300px;
+    }
+    header{
+        width: 100%;
+        text-align: center;
+    }
+  
 }
