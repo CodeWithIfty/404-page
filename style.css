@@ -49,8 +49,7 @@ body{
     border-radius: 3px;
 }
 .img-container  img{
-    width: 600px ;
-    
+    width: 70%;
 }
 
 .footer-text{
@@ -76,7 +75,6 @@ body{
     }
     .text-container{
         width: 80%;
-        text-align: center;
     }
     .text-container h1{
 font-size: 35px;
@@ -85,11 +83,10 @@ font-size: 35px;
         /* margin-bottom: -200px; */
     }
     .img-container img{
-        width: 300px;
+        width: 90%;
     }
     header{
         width: 100%;
-        text-align: center;
     }
   
 }
